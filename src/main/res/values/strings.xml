@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">Aplikasi sederhana</string>
-    <string name="lbl_name">Masukkan nama anda dibawah</string>
-    <string name="btn_name">Tampilkan</string>
-    <string name="hint_name">Nama Panjang Anda</string>
+    <string name="app_name">Whimsy &amp; Order: Tasky</string>
+    <string name="header_tasky">🌷 Whimsy &amp; Order: Tasky 🌷</string>
+    <string name="slogan">Plan your dreams with charm and clarity</string>
+    <string name="tambah_task_baru">Tambah task baru...</string>
+    <string name="tambah">Tambah</string>
+    <string name="belajar_android_studio">Belajar Android Studio</string>
+    <string name="prioritas_tinggi">Prioritas tinggi</string>
 </resources>

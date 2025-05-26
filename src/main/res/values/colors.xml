@@ -2,5 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="pinkButton">#FA4867</color>
+    <color name="pastel_pink">#FFC6C6</color>
+    <color name="pastel_green">#86A788</color>
+    <color name="pastel_maroon">#D14D72</color>
+    <color name="pastel_cream">#FFEBD4</color>
+    <color name="pastel_purple">#7469B6</color>
+    <color name="pastel_blue">#8294C4</color>
 </resources>

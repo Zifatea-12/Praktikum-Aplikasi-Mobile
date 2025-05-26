@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/cookie</item>
+        <item>@font/homemade_apple</item>
+        <item>@font/passions_conflict</item>
+        <item>@font/patrick_hand</item>
+        <item>@font/patrick_hand_sc</item>
+        <item>@font/reenie_beanie</item>
+    </array>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <!-- TextView Input -->
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:gravity="end"
+        android:padding="24dp"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- TextView output -->
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:gravity="end"
+        android:padding="16dp"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toBottomOf="@id/input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <include
+        android:id="@+id/buttonGroup"
+        layout="@layout/buttons_layout"
+        app:layout_constraintTop_toBottomOf="@id/output"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- TextView Hasil -->
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/lavender"
+        android:gravity="end"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:paddingBottom="16dp"
+        app:layout_constraintTop_toBottomOf="@id/input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Layout Tombol Kalkulator -->
+    <include
+        android:id="@+id/buttons_layout"
+        layout="@layout/buttons_layout"
+        app:layout_constraintTop_toBottomOf="@id/result"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
